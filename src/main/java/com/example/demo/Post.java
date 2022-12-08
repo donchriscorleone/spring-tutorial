@@ -43,6 +43,6 @@ public class Post {
 
     @Override
     public String toString() {
-        return "userId: " + userId + "\n id: " + id + "\n title: " + title + "\n body: " + body;
+        return "{userId: " + userId + "\n id: " + id + "\n title: " + title + "\n body: " + body + "}";
     }
 }
