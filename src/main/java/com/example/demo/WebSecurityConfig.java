@@ -40,6 +40,8 @@ public class WebSecurityConfig {
         the default is DelegatingPasswordEncoder,
         which required Password Storage Format.
 
+        Reference: https://mkyong.com/spring-boot/spring-security-there-is-no-passwordencoder-mapped-for-the-id-null/
+
         We can use this plainPassword or create PasswordEncoder class and use encodedPassword.
         * */
         PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
