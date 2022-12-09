@@ -1,10 +1,10 @@
-# Spring Framework Demo Applications
+# Spring - Securing a Web Application
 
-This project is for educational purposes to practice the use of (Spring Framework)[https://spring.io/]
+This project is about building a secure application using Spring
 
-This main branch is only for templating the project. It does not contain any necessary code to learn Spring.
+It is based on the guide of [Securing a Web Application](https://spring.io/guides/gs/securing-web/) on Spring Official Website
 
-Message me (links below) if you have any questions.
+In this project, I built a simple web application that prevent unauthorized users to navigate to a certain page.
 ## Run Locally
 
 Clone the project
@@ -31,9 +31,9 @@ Checkout to the desired branch
   git checkout <branchName>
 ```
 
-Example:
+In this branch:
 ```bash
-    git checkout guide/guide/consuming-rest
+    git checkout guide/securing-web
 ```
 
 Build the project
